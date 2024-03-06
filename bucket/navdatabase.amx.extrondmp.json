@@ -5,7 +5,7 @@
     "license": "MIT",
     "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.ExtronDMP/releases/download/v1.1.0/NAVDatabase.Amx.ExtronDMP.1.1.0.archive.zip",
     "hash": "b1235684376c9776acc071c7cc96010fc5a674560635bd68e7f27a05e46317d8",
-    "depends": ["scoop-norgateav-amx/navfoundation.amx"]
+    "depends": ["scoop-norgateav-amx/navfoundation.amx"],
     "pre_install": "if (!(is_admin)) { error \"This package requires admin rights to install\"; break }",
     "post_install": ". $dir\\SymLink.ps1",
     "pre_uninstall": ". $dir\\SymLink.ps1 -Delete",
