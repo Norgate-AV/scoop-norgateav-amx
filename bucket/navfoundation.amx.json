@@ -9,8 +9,8 @@
     "post_install": ". $dir\\SymLink.ps1",
     "pre_uninstall": ". $dir\\SymLink.ps1 -Delete",
     "checkver": {
-        "url": "https://github.com/Norgate-AV/NAVFoundation.Amx/releases/",
-        "regex": "NAVFoundation\\.Amx\\.([\\d.]+)\\.archive\\.zip"
+        "url": "https://api.github.com/repos/Norgate-AV/NAVFoundation.Amx/releases",
+        "regex": "\"tag_name\"\\s*:\\s*\"v([\\d.]+)\""
     },
     "autoupdate": {
         "url": "https://github.com/Norgate-AV/NAVFoundation.Amx/releases/download/v$version/NAVFoundation.Amx.$version.archive.zip",

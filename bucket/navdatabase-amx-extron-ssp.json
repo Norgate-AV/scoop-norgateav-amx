@@ -11,7 +11,7 @@
     "pre_uninstall": ". $dir\\SymLink.ps1 -Delete",
     "checkver": {
         "url": "https://api.github.com/repos/Norgate-AV/NAVDatabase.Amx.ExtronSSP/releases",
-        "regex": "NAVDatabase\\.Amx\\.ExtronSSP\\.([\\d.]+)\\.archive\\.zip"
+        "regex": "\"tag_name\"\\s*:\\s*\"v([\\d.]+)\""
     },
     "autoupdate": {
         "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.ExtronSSP/releases/download/v$version/NAVDatabase.Amx.ExtronSSP.$version.archive.zip",
