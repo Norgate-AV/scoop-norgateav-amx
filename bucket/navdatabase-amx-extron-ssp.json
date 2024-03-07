@@ -5,7 +5,7 @@
     "license": "MIT",
     "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.ExtronSSP/releases/download/v1.0.0/NAVDatabase.Amx.ExtronSSP.1.0.0.archive.zip",
     "hash": "f3a8d78ce2741c36189dc3a407ac88c12d652ddd2000fb2ca62a3ebae22c1b73",
-    "depends": "scoop-norgateav-amx/navfoundation.amx",
+    "depends": "norgateav-amx/navfoundation.amx",
     "pre_install": "if (!(is_admin)) { error \"This package requires admin rights to install\"; break }",
     "post_install": ". $dir\\SymLink.ps1",
     "pre_uninstall": ". $dir\\SymLink.ps1 -Delete",
