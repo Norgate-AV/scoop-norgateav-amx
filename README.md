@@ -1,18 +1,50 @@
 # scoop-norgateav-amx
 
-[![Tests](https://github.com/Norgate-AV/scoop-norgateav-amx/actions/workflows/ci.yml/badge.svg)](https://github.com/Norgate-AV/scoop-norgateav-amx/actions/workflows/ci.yml) [![Excavator](https://github.com/Norgate-AV/scoop-norgateav-amx/actions/workflows/excavator.yml/badge.svg)](https://github.com/Norgate-AV/scoop-norgateav-amx/actions/workflows/excavator.yml)
+[![Tests](https://github.com/Norgate-AV/scoop-norgateav-amx/actions/workflows/ci.yml/badge.svg)](https://github.com/Norgate-AV/scoop-norgateav-amx/actions/workflows/ci.yml)
+[![Excavator](https://github.com/Norgate-AV/scoop-norgateav-amx/actions/workflows/excavator.yml/badge.svg)](https://github.com/Norgate-AV/scoop-norgateav-amx/actions/workflows/excavator.yml)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 Bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 
-## How do I install these manifests?
+## Installation :zap:
 
-To add this bucket, run `scoop bucket add norgateav-amx https://github.com/Norgate-AV/scoop-norgateav-amx`. To install, do `scoop install <manifest>`.
+Install [Scoop](https://scoop.sh) if you haven't already.
 
-<!--
-How do I contribute new manifests?
-----------------------------------
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+```
 
-To make a new manifest contribution, please read the [Contributing Guide](./CONTRIBUTING.md).
--->
+Add this bucket.
 
----
+```powershell
+scoop bucket add norgateav-amx https://github.com/Norgate-AV/scoop-norgateav-amx
+```
+
+## Usage :rocket:
+
+```powershell
+scoop install <manifest>
+```
+
+## Manifests :package:
+
+| Package                                                                                   | Description                                                |
+| ----------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| [navfoundation-amx](https://github.com/Norgate-AV/NAVFoundation.Amx.git)                  | A collection of libraries for NetLinx software development |
+| [navdatabase-amx-extron-dmp](https://github.com/Norgate-AV/NAVDatabase.Amx.ExtronDMP.git) | NetLinx module for Extron DMP range of DSP's               |
+| [navdatabase-amx-extron-ssp](https://github.com/Norgate-AV/NAVDatabase.Amx.ExtronSSP.git) | NetLinx module for Extron SSP-200                          |
+
+## Team :soccer:
+
+This project is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/Norgate-AV/scoop-norgateav-av/graphs/contributors).
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/damienbutt"><img src="https://avatars.githubusercontent.com/damienbutt?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Damien Butt</b></sub></a><br /></td>
+  </tr>
+</table>
+
+## LICENSE :balance_scale:
+
+[MIT](LICENSE)
