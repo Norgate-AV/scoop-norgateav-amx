@@ -3,6 +3,9 @@ name: Excavator
 on:
   workflow_dispatch:
 
+  repository_dispatch:
+    types: [excavate]
+
   schedule:
     # run every 4 hours
     - cron: "20 */4 * * *"
