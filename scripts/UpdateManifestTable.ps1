@@ -61,24 +61,3 @@ try {
     Write-Error $_.Exception.Message
     exit 1
 }
-
-function Get-Table {
-    [CmdletBinding()]
-
-    $bucket = Resolve-Path -Path "$PSScriptRoot/../bucket"
-
-    $foundation = "navfoundation-amx.json"
-
-    $manifests = @()
-    $manifests += Get-ChildItem "$bucket/$foundation"
-    $manifests += Get-ChildItem "$bucket/*.json" | Where-Object { $_.Name -ne "$foundation" }
-
-    foreach ($manifest in $manifests) {
-        $content = Get-Content -Path $manifest.FullName -Raw | ConvertFrom-Json
-        $table += "| [$($manifest.BaseName)]($($content.homepage)) | $($content.description) |`n"
-    }
-
-    $table = "| Package | Description |`n| ------- | ----------- |`n$table"
-
-    return $table
-}
