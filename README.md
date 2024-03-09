@@ -4,7 +4,29 @@
 [![Excavator](https://github.com/Norgate-AV/scoop-norgateav-amx/actions/workflows/excavator.yml/badge.svg)](https://github.com/Norgate-AV/scoop-norgateav-amx/actions/workflows/excavator.yml)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-Bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
+Bucket of AMX NetLinx modules for [Scoop](https://scoop.sh), the Windows command-line installer.
+
+As module files are installed using symbolic links, it is required to run [Scoop](https://scoop.sh) with admin privileges when installing or upgrading packages.
+
+This can be made less tedious by installing the [sudo](https://github.com/ScoopInstaller/Main/blob/master/bucket/sudo.json) package, which which will temporarily elevate the privileges for the current session, albeit with a UAC popup.
+
+```powershell
+scoop install sudo
+```
+
+Then you can use `sudo` to install or upgrade packages.
+
+```powershell
+sudo scoop install <manifest>
+```
+
+## Contents :book:
+
+-   [Installation :zap:](#installation-zap)
+-   [Usage :rocket:](#usage-rocket)
+-   [Manifests :package:](#manifests-package)
+-   [Team :soccer:](#team-soccer)
+-   [LICENSE :balance_scale:](#license-balance_scale)
 
 ## Installation :zap:
 
