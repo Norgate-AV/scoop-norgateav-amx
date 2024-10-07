@@ -1,10 +1,10 @@
 {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "NetLinx module for Lightware LW3 compatible devices",
     "homepage": "https://github.com/Norgate-AV/NAVDatabase.Amx.LightwareLW3",
     "license": "MIT",
-    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.LightwareLW3/releases/download/v1.0.0/NAVDatabase.Amx.LightwareLW3.1.0.0.archive.zip",
-    "hash": "c8cd90c27079cd17991b30f71fd5f0f9eb9fa9b08e6e2470343026391d77b2c9",
+    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.LightwareLW3/releases/download/v1.1.0/NAVDatabase.Amx.LightwareLW3.1.1.0.archive.zip",
+    "hash": "7a57ec3394ec5c90d1ecf15fc7be2923284d476d1a16849c9e9c10de7cec61b8",
     "depends": "norgateav-amx/navfoundation-amx",
     "pre_install": "if (!(is_admin)) { error \"This package requires admin rights to install\"; break }",
     "post_install": ". $dir\\SymLink.ps1",
