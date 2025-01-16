@@ -56,8 +56,9 @@ scoop install <manifest>
 | Package                                                                                                 | Description                                                |
 | ------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
 | [navfoundation-amx](https://github.com/Norgate-AV/NAVFoundation.Amx)                                    | A collection of libraries for NetLinx software development |
-| [navdatabase-amx-enova-dvx](https://github.com/Norgate-AV/NAVDatabase.Amx.EnovaDVX)                     | NetLinx module for AMX Enova DVX Switchers                 |
+| [navdatabase-amx-config-from-file](https://github.com/Norgate-AV/NAVDatabase.Amx.ConfigFromFile)        | NetLinx module for loading configuration from a file       |
 | [navdatabase-amx-denon-dn-500bd](https://github.com/Norgate-AV/NAVDatabase.Amx.DenonDN-500BD)           | NetLinx module for Denon DN-500BD                          |
+| [navdatabase-amx-enova-dvx](https://github.com/Norgate-AV/NAVDatabase.Amx.EnovaDVX)                     | NetLinx module for AMX Enova DVX Switchers                 |
 | [navdatabase-amx-extron-dmp](https://github.com/Norgate-AV/NAVDatabase.Amx.ExtronDMP)                   | NetLinx module for Extron DMP range of DSP's               |
 | [navdatabase-amx-extron-ssp](https://github.com/Norgate-AV/NAVDatabase.Amx.ExtronSSP)                   | NetLinx module for Extron SSP-200                          |
 | [navdatabase-amx-lightware-lw3](https://github.com/Norgate-AV/NAVDatabase.Amx.LightwareLW3)             | NetLinx module for Lightware LW3 compatible devices        |
