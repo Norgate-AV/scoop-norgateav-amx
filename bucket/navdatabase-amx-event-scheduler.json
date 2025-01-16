@@ -1,0 +1,22 @@
+{
+    "version": "1.0.0",
+    "description": "NetLinx module for scheduling events",
+    "homepage": "https://github.com/Norgate-AV/NAVDatabase.Amx.EventScheduler",
+    "license": "MIT",
+    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.EventScheduler/releases/download/v1.0.0/NAVDatabase.Amx.EventScheduler.1.0.0.archive.zip",
+    "hash": "0a2ff4a9b0d3747c9d457af3fdf085e3e7c7b1cb63cc7a5d52f6b9e34934bbd7",
+    "depends": "norgateav-amx/navfoundation-amx",
+    "pre_install": "if (!(is_admin)) { error \"This package requires admin rights to install\"; break }",
+    "post_install": ". $dir\\SymLink.ps1",
+    "pre_uninstall": ". $dir\\SymLink.ps1 -Delete",
+    "checkver": {
+        "url": "https://api.github.com/repos/Norgate-AV/NAVDatabase.Amx.EventScheduler/releases",
+        "regex": "\"tag_name\"\\s*:\\s*\"v([\\d.]+)\""
+    },
+    "autoupdate": {
+        "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.EventScheduler/releases/download/v$version/NAVDatabase.Amx.EventScheduler.$version.archive.zip",
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
