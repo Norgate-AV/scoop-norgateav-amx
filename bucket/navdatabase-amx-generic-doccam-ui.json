@@ -1,0 +1,22 @@
+{
+    "version": "1.0.0",
+    "description": "NetLinx module for a generic document camera user interface",
+    "homepage": "https://github.com/Norgate-AV/NAVDatabase.Amx.GenericDocCamUI",
+    "license": "MIT",
+    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.GenericDocCamUI/releases/download/v1.0.0/NAVDatabase.Amx.GenericDocCamUI.1.0.0.archive.zip",
+    "hash": "5dddc170c3642d98000d3655bd8ef700f82f1f110f5bf4a003be04b62ad9c2ba",
+    "depends": "norgateav-amx/navfoundation-amx",
+    "pre_install": "if (!(is_admin)) { error \"This package requires admin rights to install\"; break }",
+    "post_install": ". $dir\\SymLink.ps1",
+    "pre_uninstall": ". $dir\\SymLink.ps1 -Delete",
+    "checkver": {
+        "url": "https://api.github.com/repos/Norgate-AV/NAVDatabase.Amx.GenericDocCamUI/releases",
+        "regex": "\"tag_name\"\\s*:\\s*\"v([\\d.]+)\""
+    },
+    "autoupdate": {
+        "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.GenericDocCamUI/releases/download/v$version/NAVDatabase.Amx.GenericDocCamUI.$version.archive.zip",
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}

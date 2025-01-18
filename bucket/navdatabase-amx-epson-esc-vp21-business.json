@@ -1,0 +1,22 @@
+{
+    "version": "1.0.1",
+    "description": "NetLinx module for Epson ESC/VP21 Business projector control",
+    "homepage": "https://github.com/Norgate-AV/NAVDatabase.Amx.EpsonESC-VP21Business",
+    "license": "MIT",
+    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.EpsonESC-VP21Business/releases/download/v1.0.1/NAVDatabase.Amx.EpsonESC-VP21Business.1.0.1.archive.zip",
+    "hash": "81a400ce2966b6d75300644ed93e9b8f2eaaa8b5e97ff5c2c12076c39f0ba366",
+    "depends": "norgateav-amx/navfoundation-amx",
+    "pre_install": "if (!(is_admin)) { error \"This package requires admin rights to install\"; break }",
+    "post_install": ". $dir\\SymLink.ps1",
+    "pre_uninstall": ". $dir\\SymLink.ps1 -Delete",
+    "checkver": {
+        "url": "https://api.github.com/repos/Norgate-AV/NAVDatabase.Amx.EpsonESC-VP21Business/releases",
+        "regex": "\"tag_name\"\\s*:\\s*\"v([\\d.]+)\""
+    },
+    "autoupdate": {
+        "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.EpsonESC-VP21Business/releases/download/v$version/NAVDatabase.Amx.EpsonESC-VP21Business.$version.archive.zip",
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
