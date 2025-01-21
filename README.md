@@ -59,13 +59,16 @@ scoop install <manifest>
 | [navdatabase-amx-ce-series-interface](https://github.com/Norgate-AV/NAVDatabase.Amx.AmxCESeriesInterface)      | NetLinx module for AMX CE Series interfaces                |
 | [navdatabase-amx-ctc-1402](https://github.com/Norgate-AV/NAVDatabase.Amx.CTC-1402)                             | NetLinx module for AMX CTC-1402                            |
 | [navdatabase-amx-config-from-file](https://github.com/Norgate-AV/NAVDatabase.Amx.ConfigFromFile)               | NetLinx module for loading configuration from a file       |
+| [navdatabase-amx-denon-dn-500av](https://github.com/Norgate-AV/NAVDatabase.Amx.DenonDN-500AV)                  | NetLinx module for Denon DN-500AV                          |
 | [navdatabase-amx-denon-dn-500bd](https://github.com/Norgate-AV/NAVDatabase.Amx.DenonDN-500BD)                  | NetLinx module for Denon DN-500BD                          |
 | [navdatabase-amx-enova-dvx](https://github.com/Norgate-AV/NAVDatabase.Amx.EnovaDVX)                            | NetLinx module for AMX Enova DVX Switchers                 |
 | [navdatabase-amx-epson-esc-vp21-business](https://github.com/Norgate-AV/NAVDatabase.Amx.EpsonESC-VP21Business) | NetLinx module for Epson ESC/VP21 Business Projectors      |
+| [navdatabase-amx-extron-dvs605](https://github.com/Norgate-AV/NAVDatabase.Amx.ExtronDVS605)                    | NetLinx module for Extron DVS605                           |
 | [navdatabase-amx-extron-dmp](https://github.com/Norgate-AV/NAVDatabase.Amx.ExtronDMP)                          | NetLinx module for Extron DMP range of DSP's               |
 | [navdatabase-amx-extron-ssp](https://github.com/Norgate-AV/NAVDatabase.Amx.ExtronSSP)                          | NetLinx module for Extron SSP-200                          |
 | [navdatabase-amx-generic-camera-ui](https://github.com/Norgate-AV/NAVDatabase.Amx.GenericCameraUI)             | NetLinx module for generic camera UI                       |
 | [navdatabase-amx-generic-doccam-ui](https://github.com/Norgate-AV/NAVDatabase.Amx.GenericDocCamUI)             | NetLinx module for generic document camera UI              |
+| [navdatabase-amx-generic-ir-device](https://github.com/Norgate-AV/NAVDatabase.Amx.GenericIRDevice)             | NetLinx module for generic IR device UI                    |
 | [navdatabase-amx-generic-projector-ui](https://github.com/Norgate-AV/NAVDatabase.Amx.GenericProjectorUI)       | NetLinx module for generic projector UI                    |
 | [navdatabase-amx-lightware-lw3](https://github.com/Norgate-AV/NAVDatabase.Amx.LightwareLW3)                    | NetLinx module for Lightware LW3 compatible devices        |
 | [navdatabase-amx-ntp-client](https://github.com/Norgate-AV/NAVDatabase.Amx.NtpClient)                          | NetLinx module for NTP client                              |
