@@ -75,6 +75,7 @@ scoop install <manifest>
 | [navdatabase-amx-pjlink](https://github.com/Norgate-AV/NAVDatabase.Amx.PJLink)                                 | NetLinx module for PJLink compatible devices               |
 | [navdatabase-amx-session-manager](https://github.com/Norgate-AV/NAVDatabase.Amx.SessionManager)                | NetLinx module for managing user session times             |
 | [navdatabase-amx-shure-mxa](https://github.com/Norgate-AV/NAVDatabase.Amx.ShureMXA)                            | NetLinx module for Shure MXA range of microphones          |
+| [navdatabase-amx-visca-camera](https://github.com/Norgate-AV/NAVDatabase.Amx.ViscaCamera)                      | NetLinx module for VISCA compatible cameras                |
 | [navdatabase-amx-wolfvision-visualizer](https://github.com/Norgate-AV/NAVDatabase.Amx.WolfVisionVisualizer)    | NetLinx module for WolfVision Visualizers                  |
 | [navdatabase-amx-yamaha-bd-a1020](https://github.com/Norgate-AV/NAVDatabase.Amx.YamahaBD-A1020)                | NetLinx module for Yamaha BD-A1020                         |
 
