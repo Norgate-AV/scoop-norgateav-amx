@@ -1,0 +1,22 @@
+{
+    "version": "1.0.0",
+    "description": "Netlinx module for Enova DGX switchers",
+    "homepage": "https://github.com/Norgate-AV/NAVDatabase.Amx.EnovaDGX",
+    "license": "MIT",
+    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.EnovaDGX/releases/download/v1.0.0/NAVDatabase.Amx.EnovaDGX.1.0.0.archive.zip",
+    "hash": "bdf7e5b2d0d2414eb3801cadaefbca2a7023d797bae6b9a8bb65e2def8e8d361",
+    "depends": "norgateav-amx/navfoundation-amx",
+    "pre_install": "if (!(is_admin)) { error \"This package requires admin rights to install\"; break }",
+    "post_install": ". $dir\\SymLink.ps1",
+    "pre_uninstall": ". $dir\\SymLink.ps1 -Delete",
+    "checkver": {
+        "url": "https://api.github.com/repos/Norgate-AV/NAVDatabase.Amx.EnovaDGX/releases",
+        "regex": "\"tag_name\"\\s*:\\s*\"v([\\d.]+)\""
+    },
+    "autoupdate": {
+        "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.EnovaDGX/releases/download/v$version/NAVDatabase.Amx.EnovaDGX.$version.archive.zip",
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
