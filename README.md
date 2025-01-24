@@ -46,7 +46,7 @@ scoop bucket add norgateav-amx https://github.com/Norgate-AV/scoop-norgateav-amx
 ## Usage :rocket:
 
 ```powershell
-scoop install <manifest>
+sudo scoop install <manifest>
 ```
 
 ## Manifests :package:
