@@ -1,7 +1,7 @@
 {
     "version": "1.0.0",
     "description": "Netlinx module for Casio projectors",
-    "homepage": "https://github.com/Norgate-AV/NAVDatabase.Amx.PJLink",
+    "homepage": "https://github.com/Norgate-AV/NAVDatabase.Amx.CasioProjector",
     "license": "MIT",
     "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.CasioProjector/releases/download/v1.0.0/NAVDatabase.Amx.CasioProjector.1.0.0.archive.zip",
     "hash": "ac1478658a19eca7982c6c63d12b892edc4d85eb835bc6b3a2c842ebb614e2b2",
