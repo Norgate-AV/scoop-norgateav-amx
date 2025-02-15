@@ -1,10 +1,10 @@
 {
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "NetLinx module for Denon DN-500BD",
     "homepage": "https://github.com/Norgate-AV/NAVDatabase.Amx.DenonDN-500BD",
     "license": "MIT",
-    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.DenonDN-500BD/releases/download/v1.0.2/NAVDatabase.Amx.DenonDN-500BD.1.0.2.archive.zip",
-    "hash": "038cca044c2dac10ec36f3b726ea0008f146c3e44ddb93d446e15e95f32667a2",
+    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.DenonDN-500BD/releases/download/v1.0.3/NAVDatabase.Amx.DenonDN-500BD.1.0.3.archive.zip",
+    "hash": "7dd96f5a9148ce71f178dbad06272b73f557b65e9af0f1f5c4387b5494ff5978",
     "depends": "norgateav-amx/navfoundation-amx",
     "pre_install": "if (!(is_admin)) { error \"This package requires admin rights to install\"; break }",
     "post_install": ". $dir\\SymLink.ps1",
