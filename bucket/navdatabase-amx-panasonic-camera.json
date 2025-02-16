@@ -1,10 +1,10 @@
 {
-    "version": "1.6.2",
+    "version": "1.6.3",
     "description": "NetLinx module for Panasonic cameras",
     "homepage": "https://github.com/Norgate-AV/NAVDatabase.Amx.PanasonicCamera",
     "license": "MIT",
-    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.PanasonicCamera/releases/download/v1.6.2/NAVDatabase.Amx.PanasonicCamera.1.6.2.archive.zip",
-    "hash": "413ef92c787ace7526330cc9e8ea5d89ea0942295cdcb287f2c85628c281a28a",
+    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.PanasonicCamera/releases/download/v1.6.3/NAVDatabase.Amx.PanasonicCamera.1.6.3.archive.zip",
+    "hash": "99d111cbba4175ffde964f05bb58e550f445a89c65bf49b942bc58a5953d2115",
     "depends": "norgateav-amx/navfoundation-amx",
     "pre_install": "if (!(is_admin)) { error \"This package requires admin rights to install\"; break }",
     "post_install": ". $dir\\SymLink.ps1",
