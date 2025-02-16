@@ -1,10 +1,10 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "NetLinx module for Yamaha BD-A1020",
     "homepage": "https://github.com/Norgate-AV/NAVDatabase.Amx.YamahaBD-A1020",
     "license": "MIT",
-    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.YamahaBD-A1020/releases/download/v1.0.0/NAVDatabase.Amx.YamahaBD-A1020.1.0.0.archive.zip",
-    "hash": "f797ad3f5687b7aa69dc5a9b0542ccf90b5d3c9f1c46cf8fa3a4786e7f9064ef",
+    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.YamahaBD-A1020/releases/download/v1.0.1/NAVDatabase.Amx.YamahaBD-A1020.1.0.1.archive.zip",
+    "hash": "b592ee94b05997a343fc170ea964edd61fc58f9de754a659c713855b60fbb444",
     "depends": "norgateav-amx/navfoundation-amx",
     "pre_install": "if (!(is_admin)) { error \"This package requires admin rights to install\"; break }",
     "post_install": ". $dir\\SymLink.ps1",
