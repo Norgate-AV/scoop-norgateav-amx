@@ -1,10 +1,10 @@
 {
-    "version": "2.0.4",
+    "version": "2.0.5",
     "description": "NetLinx module for Panasonic projectors",
     "homepage": "https://github.com/Norgate-AV/NAVDatabase.Amx.PanasonicProjector",
     "license": "MIT",
-    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.PanasonicProjector/releases/download/v2.0.4/NAVDatabase.Amx.PanasonicProjector.2.0.4.archive.zip",
-    "hash": "ee626887ee85a07d05d1689401c1d0c1ec334a751d83e68329988ef3824bd2b4",
+    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.PanasonicProjector/releases/download/v2.0.5/NAVDatabase.Amx.PanasonicProjector.2.0.5.archive.zip",
+    "hash": "611bdff98457c143a34b2f9e752a26e09cbf6a0b523ab6ba35958d2cafd78e73",
     "depends": "norgateav-amx/navfoundation-amx",
     "pre_install": "if (!(is_admin)) { error \"This package requires admin rights to install\"; break }",
     "post_install": ". $dir\\SymLink.ps1",
