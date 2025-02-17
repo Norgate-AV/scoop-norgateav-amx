@@ -1,10 +1,10 @@
 {
-    "version": "1.2.1",
+    "version": "1.3.0",
     "description": "NetLinx module for AMX Enova DVX Switchers",
     "homepage": "https://github.com/Norgate-AV/NAVDatabase.Amx.EnovaDVX",
     "license": "MIT",
-    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.EnovaDVX/releases/download/v1.2.1/NAVDatabase.Amx.EnovaDVX.1.2.1.archive.zip",
-    "hash": "4a0b688a99493346cc2f09d28fe918fbb42590b57a6d9082a64e289d5ba5c38a",
+    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.EnovaDVX/releases/download/v1.3.0/NAVDatabase.Amx.EnovaDVX.1.3.0.archive.zip",
+    "hash": "16d448ace433020cb2111b4d3463e13716a2f78675c1b842248300d5bd888639",
     "depends": "norgateav-amx/navfoundation-amx",
     "pre_install": "if (!(is_admin)) { error \"This package requires admin rights to install\"; break }",
     "post_install": ". $dir\\SymLink.ps1",
