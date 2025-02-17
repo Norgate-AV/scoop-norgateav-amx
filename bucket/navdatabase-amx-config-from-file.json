@@ -1,10 +1,10 @@
 {
-    "version": "2.0.3",
+    "version": "2.1.0",
     "description": "NetLinx module for reading configuration from a file",
     "homepage": "https://github.com/Norgate-AV/NAVDatabase.Amx.ConfigFromFile",
     "license": "MIT",
-    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.ConfigFromFile/releases/download/v2.0.3/NAVDatabase.Amx.ConfigFromFile.2.0.3.archive.zip",
-    "hash": "64712de0ca40fbf6e872b55d38ca8c33ed394cd0d1051bd1887e7b2800d75f18",
+    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.ConfigFromFile/releases/download/v2.1.0/NAVDatabase.Amx.ConfigFromFile.2.1.0.archive.zip",
+    "hash": "6778a23ad780ea24bd09b170f876f907611878fe011eef9ac4e3e8c2dc089994",
     "depends": "norgateav-amx/navfoundation-amx",
     "pre_install": "if (!(is_admin)) { error \"This package requires admin rights to install\"; break }",
     "post_install": ". $dir\\SymLink.ps1",
