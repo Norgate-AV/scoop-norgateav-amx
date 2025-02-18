@@ -1,10 +1,10 @@
 {
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "NetLinx module for Visca compatible cameras",
     "homepage": "https://github.com/Norgate-AV/NAVDatabase.Amx.ViscaCamera",
     "license": "MIT",
-    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.ViscaCamera/releases/download/v1.1.0/NAVDatabase.Amx.ViscaCamera.1.1.0.archive.zip",
-    "hash": "fd5af8957859347f5521c465fcfd76df74b0fbffcdeb381dcf3d429ac814d859",
+    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.ViscaCamera/releases/download/v1.2.0/NAVDatabase.Amx.ViscaCamera.1.2.0.archive.zip",
+    "hash": "7f2cb520f2ac0d8968a0dd40e438287e2e1b76d382d35888276e2a5bebf44f37",
     "depends": "norgateav-amx/navfoundation-amx",
     "pre_install": "if (!(is_admin)) { error \"This package requires admin rights to install\"; break }",
     "post_install": ". $dir\\SymLink.ps1",
