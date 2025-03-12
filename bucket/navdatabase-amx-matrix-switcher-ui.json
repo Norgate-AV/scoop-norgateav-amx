@@ -1,10 +1,10 @@
 {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "Netlinx module for a matrix switcher user interface",
     "homepage": "https://github.com/Norgate-AV/NAVDatabase.Amx.MatrixSwitcherUI",
     "license": "MIT",
-    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.MatrixSwitcherUI/releases/download/v1.0.0/NAVDatabase.Amx.MatrixSwitcherUI.1.0.0.archive.zip",
-    "hash": "c44de01414011ec2fb161feb6871378e5f311b3d984ef356220f2011817f8802",
+    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.MatrixSwitcherUI/releases/download/v1.1.0/NAVDatabase.Amx.MatrixSwitcherUI.1.1.0.archive.zip",
+    "hash": "a3a7c756ca9bf9e3204f9ad4523fee5da2f0d63eb5bec43d308124e29f91b413",
     "depends": "norgateav-amx/navfoundation-amx",
     "pre_install": "if (!(is_admin)) { error \"This package requires admin rights to install\"; break }",
     "post_install": ". $dir\\SymLink.ps1",
