@@ -1,10 +1,10 @@
 {
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "NetLinx module for a generic camera user interface",
     "homepage": "https://github.com/Norgate-AV/NAVDatabase.Amx.GenericCameraUI",
     "license": "MIT",
-    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.GenericCameraUI/releases/download/v1.1.0/NAVDatabase.Amx.GenericCameraUI.1.1.0.archive.zip",
-    "hash": "0aacf10fb80148d7260a17a9c818b02a06dd7f4f774e7cd58dad454c66d5ba4c",
+    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.GenericCameraUI/releases/download/v1.2.0/NAVDatabase.Amx.GenericCameraUI.1.2.0.archive.zip",
+    "hash": "dbfe35e5622b917c3b1a86ec10287c550fca512b46fc38f03b19d46602251520",
     "depends": "norgateav-amx/navfoundation-amx",
     "pre_install": "if (!(is_admin)) { error \"This package requires admin rights to install\"; break }",
     "post_install": ". $dir\\SymLink.ps1",
