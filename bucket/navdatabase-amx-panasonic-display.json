@@ -1,10 +1,10 @@
 {
-    "version": "2.1.0",
+    "version": "2.2.0",
     "description": "NetLinx module for Panasonic displays",
     "homepage": "https://github.com/Norgate-AV/NAVDatabase.Amx.PanasonicDisplay",
     "license": "MIT",
-    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.PanasonicDisplay/releases/download/v2.1.0/NAVDatabase.Amx.PanasonicDisplay.2.1.0.archive.zip",
-    "hash": "60bab6d3cc349ef1859afd2621aaff04aa909e6319a0785ed29a121dc1ca0d50",
+    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.PanasonicDisplay/releases/download/v2.2.0/NAVDatabase.Amx.PanasonicDisplay.2.2.0.archive.zip",
+    "hash": "6aee9038a0b09ee58e81413837ff125aa90317803684b46345703f2c84139712",
     "depends": "norgateav-amx/navfoundation-amx",
     "pre_install": "if (!(is_admin)) { error \"This package requires admin rights to install\"; break }",
     "post_install": ". $dir\\SymLink.ps1",
