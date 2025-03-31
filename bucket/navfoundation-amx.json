@@ -1,10 +1,10 @@
 {
-    "version": "2.0.1",
+    "version": "2.1.0",
     "description": "A collection of libraries for NetLinx software development",
     "homepage": "https://github.com/Norgate-AV/NAVFoundation.Amx",
     "license": "MIT",
-    "url": "https://github.com/Norgate-AV/NAVFoundation.Amx/releases/download/v2.0.1/NAVFoundation.Amx.2.0.1.archive.zip",
-    "hash": "f826ff5383686800277225c3d85d149bfb30cc73eebdda09850dca6eb4a21607",
+    "url": "https://github.com/Norgate-AV/NAVFoundation.Amx/releases/download/v2.1.0/NAVFoundation.Amx.2.1.0.archive.zip",
+    "hash": "1a218a00eb73157d021c1c0cc33965f0614178191373387a9df37a8516759d75",
     "pre_install": "if (!(is_admin)) { error \"This package requires admin rights to install\"; break }",
     "post_install": ". $dir\\SymLink.ps1",
     "pre_uninstall": ". $dir\\SymLink.ps1 -Delete",
