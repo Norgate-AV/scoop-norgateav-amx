@@ -97,6 +97,7 @@ sudo scoop install <manifest>
 | [navdatabase-amx-shure-mxa](https://github.com/Norgate-AV/NAVDatabase.Amx.ShureMXA)                                      | NetLinx module for Shure MXA range of microphones          |
 | [navdatabase-amx-smart-display](https://github.com/Norgate-AV/NAVDatabase.Amx.SmartDisplay)                              | NetLinx module for Smart Displays                          |
 | [navdatabase-amx-smart-sbid-7075](https://github.com/Norgate-AV/NAVDatabase.Amx.SmartDisplaySBID-7075)                   | NetLinx module for Smart SBID-7075                         |
+| [navdatabase-amx-sony-display-rs232](https://github.com/Norgate-AV/NAVDatabase.Amx.SonyDisplayRS232)                     | NetLinx module for Sony Displays using RS232               |
 | [navdatabase-amx-svsi-decoder](https://github.com/Norgate-AV/NAVDatabase.Amx.SVSIDecoder)                                | NetLinx module for SVSI decoders                           |
 | [navdatabase-amx-visca-camera](https://github.com/Norgate-AV/NAVDatabase.Amx.ViscaCamera)                                | NetLinx module for VISCA compatible cameras                |
 | [navdatabase-amx-vividtouch-display](https://github.com/Norgate-AV/NAVDatabase.Amx.VividTouchDisplay)                    | NetLinx module for VividTouch displays                     |
