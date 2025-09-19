@@ -1,10 +1,10 @@
 {
-    "version": "1.2.0",
+    "version": "1.3.0",
     "description": "NetLinx module for WolfVision Visualizer",
     "homepage": "https://github.com/Norgate-AV/NAVDatabase.Amx.WolfVisionVisualizer",
     "license": "MIT",
-    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.WolfVisionVisualizer/releases/download/v1.2.0/NAVDatabase.Amx.WolfVisionVisualizer.1.2.0.archive.zip",
-    "hash": "ba8f44e534172ef702680499be8e2ccaba41ef025f5f7bacf10d5c556834d033",
+    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.WolfVisionVisualizer/releases/download/v1.3.0/NAVDatabase.Amx.WolfVisionVisualizer.1.3.0.archive.zip",
+    "hash": "3f37c90e9127468bf32bdc924855a890686b74be63a68c094257a4f2a465353e",
     "depends": "norgateav-amx/navfoundation-amx",
     "pre_install": "if (!(is_admin)) { error \"This package requires admin rights to install\"; break }",
     "post_install": ". $dir\\SymLink.ps1",
