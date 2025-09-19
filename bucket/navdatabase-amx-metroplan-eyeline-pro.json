@@ -1,10 +1,10 @@
 {
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "Netlinx module for Metroplan Eyeline Pro electric screens",
     "homepage": "https://github.com/Norgate-AV/NAVDatabase.Amx.MetroplanEyelinePro",
     "license": "MIT",
-    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.MetroplanEyelinePro/releases/download/v1.1.0/NAVDatabase.Amx.MetroplanEyelinePro.1.1.0.archive.zip",
-    "hash": "d5d4a9b5b13c6a538ff28afba7d093e013f01acdc12cc598fe679dbb726a4bbb",
+    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.MetroplanEyelinePro/releases/download/v1.2.0/NAVDatabase.Amx.MetroplanEyelinePro.1.2.0.archive.zip",
+    "hash": "abaac124998d60a72792d641ba5c7d4b8e9518528e9afbbe8ba46da0ab0c8af3",
     "depends": "norgateav-amx/navfoundation-amx",
     "pre_install": "if (!(is_admin)) { error \"This package requires admin rights to install\"; break }",
     "post_install": ". $dir\\SymLink.ps1",
