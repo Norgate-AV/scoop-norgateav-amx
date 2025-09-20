@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v5
 
       - name: Excavate
-        uses: damienbutt/GithubActions@feat/add-repo-dispatch-event
+        uses: ScoopInstaller/GithubActions@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SKIP_UPDATED: 1
