@@ -1,10 +1,10 @@
 {
-    "version": "1.2.0",
+    "version": "1.3.0",
     "description": "NetLinx module for AMX CE Series interfaces",
     "homepage": "https://github.com/Norgate-AV/NAVDatabase.Amx.AmxCeSeriesInterface",
     "license": "MIT",
-    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.AmxCeSeriesInterface/releases/download/v1.2.0/NAVDatabase.Amx.AmxCeSeriesInterface.1.2.0.archive.zip",
-    "hash": "066643ae09544207ea32bb490710c32816553f5364582a98f8845b90572769d0",
+    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.AmxCeSeriesInterface/releases/download/v1.3.0/NAVDatabase.Amx.AmxCeSeriesInterface.1.3.0.archive.zip",
+    "hash": "c9e41d42e7779c780efe6250a40b94ebbc14046435240705a200e820cc343ad8",
     "depends": "norgateav-amx/navfoundation-amx",
     "pre_install": "if (!(is_admin)) { error \"This package requires admin rights to install\"; break }",
     "post_install": ". $dir\\SymLink.ps1",
