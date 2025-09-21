@@ -1,10 +1,10 @@
 {
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "Netlinx module for SVSI Decoder",
     "homepage": "https://github.com/Norgate-AV/NAVDatabase.Amx.SVSIDecoder",
     "license": "MIT",
-    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.SVSIDecoder/releases/download/v1.1.0/NAVDatabase.Amx.SVSIDecoder.1.1.0.archive.zip",
-    "hash": "d28475a94ab436d86b9c7a63e34d89eb191390edd691b9e8ade1f3908956a588",
+    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.SVSIDecoder/releases/download/v1.2.0/NAVDatabase.Amx.SVSIDecoder.1.2.0.archive.zip",
+    "hash": "b5d5151e90a44cde697a9e21e355aac07180e944046f683928aaf91dfb567f2c",
     "depends": "norgateav-amx/navfoundation-amx",
     "pre_install": "if (!(is_admin)) { error \"This package requires admin rights to install\"; break }",
     "post_install": ". $dir\\SymLink.ps1",
