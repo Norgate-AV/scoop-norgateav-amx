@@ -1,10 +1,10 @@
 {
-    "version": "1.5.1",
+    "version": "1.6.0",
     "description": "NetLinx module for Shure MXA range of microphones",
     "homepage": "https://github.com/Norgate-AV/NAVDatabase.Amx.ShureMXA",
     "license": "MIT",
-    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.ShureMXA/releases/download/v1.5.1/NAVDatabase.Amx.ShureMXA.1.5.1.archive.zip",
-    "hash": "a49f8a2f6b280484700dbc81cd9ed3013b1f7a0b83fdfedefb950c10e3b82186",
+    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.ShureMXA/releases/download/v1.6.0/NAVDatabase.Amx.ShureMXA.1.6.0.archive.zip",
+    "hash": "3ce50001e48c7ead0affff7f934988b875d087bfa0ae3e5db601a88acff0018b",
     "depends": "norgateav-amx/navfoundation-amx",
     "pre_install": "if (!(is_admin)) { error \"This package requires admin rights to install\"; break }",
     "post_install": ". $dir\\SymLink.ps1",
