@@ -1,10 +1,10 @@
 {
-    "version": "2.1.0",
+    "version": "2.1.1",
     "description": "Netlinx module for LG displays",
     "homepage": "https://github.com/Norgate-AV/NAVDatabase.Amx.LGxxDisplay",
     "license": "MIT",
-    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.LGxxDisplay/releases/download/v2.1.0/NAVDatabase.Amx.LGxxDisplay.2.1.0.archive.zip",
-    "hash": "29a98016054b0cc964a7833add99ba7806fe88946771af08148d3cf3001b7734",
+    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.LGxxDisplay/releases/download/v2.1.1/NAVDatabase.Amx.LGxxDisplay.2.1.1.archive.zip",
+    "hash": "f8f76ad6573b470953143f822aecbe65a66b8c67928f5f1f821cf31decbde5f8",
     "depends": "norgateav-amx/navfoundation-amx",
     "pre_install": "if (!(is_admin)) { error \"This package requires admin rights to install\"; break }",
     "post_install": ". $dir\\SymLink.ps1",
