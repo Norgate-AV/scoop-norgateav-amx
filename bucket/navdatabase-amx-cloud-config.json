@@ -3,7 +3,7 @@
     "description": "NetLinx module for fetching remote config files",
     "homepage": "https://github.com/Norgate-AV/NAVDatabase.Amx.CloudConfig",
     "license": "MIT",
-    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.CloudConfig/releases/download/v1.5.0/NAVDatabase.Amx.CloudConfig.1.0.0.archive.zip",
+    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.CloudConfig/releases/download/v1.0.0/NAVDatabase.Amx.CloudConfig.1.0.0.archive.zip",
     "hash": "8ccd4bbf05bd53fd4a5fc87f30ce08e2d61d276c7d29fd9ba608b02ae3112d62",
     "depends": "norgateav-amx/navfoundation-amx",
     "pre_install": "if (!(is_admin)) { error \"This package requires admin rights to install\"; break }",
