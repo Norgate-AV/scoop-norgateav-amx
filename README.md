@@ -61,6 +61,7 @@ sudo scoop install <manifest>
 | [navdatabase-amx-casio-projector](https://github.com/Norgate-AV/NAVDatabase.Amx.CasioProjector) | Netlinx module for Casio projectors |
 | [navdatabase-amx-ce-series-interface](https://github.com/Norgate-AV/NAVDatabase.Amx.AmxCeSeriesInterface) | NetLinx module for AMX CE Series interfaces |
 | [navdatabase-amx-cloud-config](https://github.com/Norgate-AV/NAVDatabase.Amx.CloudConfig) | NetLinx module for fetching remote config files |
+| [navdatabase-amx-cloud-logger](https://github.com/Norgate-AV/NAVDatabase.Amx.CloudLogger) | NetLinx module for sending log data to a remote cloud server |
 | [navdatabase-amx-config-from-file](https://github.com/Norgate-AV/NAVDatabase.Amx.ConfigFromFile) | NetLinx module for reading configuration from a file |
 | [navdatabase-amx-ctc-1402](https://github.com/Norgate-AV/NAVDatabase.Amx.AMX-CTC-1402) | NetLinx module for AMX CTC-1402 switchers |
 | [navdatabase-amx-denon-dn-500av](https://github.com/Norgate-AV/NAVDatabase.Amx.DenonDN-500AV) | NetLinx module for Denon DN-500AV |

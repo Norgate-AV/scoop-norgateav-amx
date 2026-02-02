@@ -1,0 +1,22 @@
+{
+    "version": "1.0.0",
+    "description": "NetLinx module for sending log data to a remote cloud server",
+    "homepage": "https://github.com/Norgate-AV/NAVDatabase.Amx.CloudLogger",
+    "license": "MIT",
+    "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.CloudLogger/releases/download/v1.0.0/NAVDatabase.Amx.CloudLogger.1.0.0.archive.zip",
+    "hash": "bf31f4b3c28486890056e8a3481095d58028aeff7e22aa5a7cd46b65b3e54484",
+    "depends": "norgateav-amx/navfoundation-amx",
+    "pre_install": "if (!(is_admin)) { error \"This package requires admin rights to install\"; break }",
+    "post_install": ". $dir\\SymLink.ps1",
+    "pre_uninstall": ". $dir\\SymLink.ps1 -Delete",
+    "checkver": {
+        "url": "https://api.github.com/repos/Norgate-AV/NAVDatabase.Amx.CloudLogger/releases",
+        "regex": "\"tag_name\"\\s*:\\s*\"v([\\d.]+)\""
+    },
+    "autoupdate": {
+        "url": "https://github.com/Norgate-AV/NAVDatabase.Amx.CloudLogger/releases/download/v$version/NAVDatabase.Amx.CloudLogger.$version.archive.zip",
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
